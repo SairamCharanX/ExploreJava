@@ -7,5 +7,16 @@ public class CollectionsPractice{
             intList.add(x);
         }
         System.out.println(intList.toString());
+
+
+        for (int x=10;x<=100;x++){
+            intList.add(x);
+
+        }
+        ArrayList<Integer> newList = new ArrayList<>();
+        newList.addAll(intList);
+        System.out.println(newList);
+
+
     }
 }

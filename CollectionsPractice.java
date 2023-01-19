@@ -17,6 +17,5 @@ public class CollectionsPractice{
         newList.addAll(intList);
         System.out.println(newList);
 
-//TODO
     }
 }

@@ -12,7 +12,23 @@ public class Iterators {
         Iterator<Integer> it = list.iterator();
 
         while(it.hasNext()){
-            System.out.println(it.next());
+            System.out.print(it.next() + " ");
+        }
+
+        System.out.println();
+
+        List<String> sl = new ArrayList<String>();
+        sl.add("First");
+        sl.add("Second");
+        sl.add("Third");
+        sl.add("Fourth");
+        sl.add("Fifth");
+
+
+        Iterator its = sl.iterator();
+
+        while(its.hasNext()){
+            System.out.print(its.next() + " ");
         }
 
     }

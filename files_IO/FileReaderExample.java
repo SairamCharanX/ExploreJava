@@ -1,4 +1,6 @@
-import java.io.FileReader;  
+package files_IO;
+
+import java.io.FileReader;
 public class FileReaderExample {  
     public static void main(String args[])throws Exception{    
           FileReader fr=new FileReader("E:\\ApplicationFiles\\inputFile.txt");    

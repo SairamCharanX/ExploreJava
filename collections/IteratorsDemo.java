@@ -1,4 +1,4 @@
-//Partially done. Throws an exception ConcurrentModificationException.
+package collections;//Partially done. Throws an exception ConcurrentModificationException.
 
 
 import java.util.Iterator;

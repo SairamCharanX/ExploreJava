@@ -1,4 +1,4 @@
-//User creates a text file using FileOutputStream
+package files_IO;//User creates a text file using FileOutputStream
 import java.io.BufferedOutputStream;
 import java.io.DataInputStream;
 import java.io.FileOutputStream;

@@ -1,4 +1,4 @@
-package exceptionsDemo;
+package exceptions.exceptionsDemo;
 
 public class IOExceptionDemo {
     public static void main(String[] args) throws ArrayIndexOutOfBoundsException {

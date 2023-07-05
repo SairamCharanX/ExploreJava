@@ -12,8 +12,5 @@ class swingApplication{
         buttonOne.setBounds(130, 100, 10, 10);
 
         jframe.add(buttonOne);
-
-
     }
-
 }

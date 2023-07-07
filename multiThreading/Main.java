@@ -6,7 +6,10 @@ public class Main extends Thread{
         System.out.println("Thread from Main Class running.");
     }
     public static void main(String[] args){
-        Main m = new Main();
-        m.start();
+        Main m1 = new Main();
+        m1.start();
+
+        Main m2 = new Main();
+        m2.start();
     }
 }

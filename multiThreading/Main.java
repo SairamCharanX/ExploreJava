@@ -1,5 +1,6 @@
 package multiThreading;
 
+
 public class Main extends Thread{
 
     public void run(){
@@ -11,5 +12,6 @@ public class Main extends Thread{
 
         Main m2 = new Main();
         m2.start();
+
     }
 }

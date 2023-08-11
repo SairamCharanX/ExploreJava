@@ -4,6 +4,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/SpringApps" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../gradle-8.1.1-all/gradle-8.1.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/SpringApps" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/data" />
         <option name="gradleHome" value="$PROJECT_DIR$/../gradle-8.1.1-all/gradle-8.1.1" />
         <option name="modules">

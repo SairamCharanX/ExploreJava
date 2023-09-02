@@ -6,18 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="dbconn (2)" />
-        <module name="dbconn (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="data" target="11" />
+      <module name="data.main" target="11" />
+      <module name="data.test" target="11" />
       <module name="dbconn" target="1.8" />
       <module name="dbconn (1)" target="1.8" />
       <module name="dbconn (2)" target="1.8" />
       <module name="SpringApps" target="11" />
       <module name="springApps" target="11" />
+      <module name="SpringApps.main" target="11" />
       <module name="springApps.main" target="11" />
       <module name="springApps.test" target="11" />
+      <module name="SpringApps.test" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

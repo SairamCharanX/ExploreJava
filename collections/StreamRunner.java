@@ -12,8 +12,10 @@ public class StreamRunner {
 
         List<Integer> numbers = Arrays.asList(1,2,3,4,5);
         List<Integer> squares = numbers.stream().map(number -> number * number).collect(Collectors.toList());
+        List<Integer> cubes = numbers.stream().map(number -> number * number * number).collect(Collectors.toList());
 
         System.out.println(numbers);
         System.out.println(squares);
+        System.out.println(cubes);
     }
 }

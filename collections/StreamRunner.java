@@ -17,5 +17,7 @@ public class StreamRunner {
         System.out.println(numbers);
         System.out.println(squares);
         System.out.println(cubes);
+
+        scanner.close();
     }
 }

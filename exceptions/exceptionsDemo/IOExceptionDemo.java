@@ -1,5 +1,7 @@
 package exceptions.exceptionsDemo;
 
+import exceptions.MyClass;
+
 public class IOExceptionDemo {
     public static void main(String[] args) throws ArrayIndexOutOfBoundsException {
         try {
@@ -9,6 +11,9 @@ public class IOExceptionDemo {
         catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Caught ArrayOutOfBoundsException");
         }
+
+
+
         finally {
             System.out.println("Make sure the indices of the array are checked");
         }

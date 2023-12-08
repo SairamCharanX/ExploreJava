@@ -11,9 +11,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="data" target="11" />
+      <module name="data.main" target="11" />
+      <module name="data.test" target="11" />
       <module name="dbconn" target="1.8" />
-      <module name="dbconn (1)" target="1.8" />
-      <module name="dbconn (2)" target="1.8" />
       <module name="SpringApps" target="11" />
       <module name="springApps" target="11" />
       <module name="springApps.main" target="11" />

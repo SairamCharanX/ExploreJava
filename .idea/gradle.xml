@@ -13,13 +13,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/data" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/testing" />
         <option name="gradleHome" value="$PROJECT_DIR$/../gradle-8.1.1-all/gradle-8.1.1" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/data" />
-          </set>
-        </option>
       </GradleProjectSettings>
     </option>
   </component>
